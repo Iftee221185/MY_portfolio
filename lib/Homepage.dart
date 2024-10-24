@@ -57,7 +57,7 @@ class Homepage extends StatelessWidget {
               ),
             ),
           ),
-        SizedBox(height: 20,),
+        SizedBox(height: 21,),
           ElevatedButton(
             onPressed: (){
               Navigator.push(context, MaterialPageRoute(builder: (context)=>PersonalInfo()));
